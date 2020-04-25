@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBaySearchApplication", "eBaySearchApplication\eBaySearchApplication.csproj", "{A38876B8-0F13-45CD-B4F8-B6188DB5A37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBayFindingAPI", "..\eBayWrapper\FindingAPI\FindingAPI\eBayFindingAPI.csproj", "{0CF0805E-96B0-47F5-8927-4C057407C90E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A38876B8-0F13-45CD-B4F8-B6188DB5A37E}.Debug|x86.ActiveCfg = Debug|x86
+		{A38876B8-0F13-45CD-B4F8-B6188DB5A37E}.Debug|x86.Build.0 = Debug|x86
+		{A38876B8-0F13-45CD-B4F8-B6188DB5A37E}.Release|x86.ActiveCfg = Release|x86
+		{A38876B8-0F13-45CD-B4F8-B6188DB5A37E}.Release|x86.Build.0 = Release|x86
+		{0CF0805E-96B0-47F5-8927-4C057407C90E}.Debug|x86.ActiveCfg = Debug|x86
+		{0CF0805E-96B0-47F5-8927-4C057407C90E}.Debug|x86.Build.0 = Debug|x86
+		{0CF0805E-96B0-47F5-8927-4C057407C90E}.Release|x86.ActiveCfg = Release|x86
+		{0CF0805E-96B0-47F5-8927-4C057407C90E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA2F8E41-BF1D-4667-8858-5247DD802BCA}
+	EndGlobalSection
+EndGlobal
